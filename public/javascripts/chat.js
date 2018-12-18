@@ -1,5 +1,5 @@
 //make connection
-var csocket =io.connect('localhost:3000');
+var csocket =io.connect('wss://chatterbox-project.herokuapp.com');
 console.log(csocket);
 var $username;
 console.log($username);
