@@ -1,0 +1,116 @@
+body { 
+  background: url("../images/bgimage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  
+}
+input[type="text"] {
+  border:none;
+  border-radius:none !important;
+}
+
+.navbar.navbar-inverse {
+  background:#221b1b8f;
+ 
+  
+}
+
+.navbar.navbar-inverse a {
+  color:white !important;
+}
+.navbar-inverse {
+  border:none;
+  
+}
+a.navbar-brand  {
+  color: white !important;
+ font-size: 2em;
+  
+}
+
+ul.success li{
+  padding:15px;
+  margin-bottom:20px;
+  boarder:1px solid transparent;
+  boarder-radius:4px;
+  color: white;
+  background-color:#221b1b8f;
+  list-style: none;
+  cursor: pointer;
+}
+ul.error li{
+  padding:15px;
+  margin-bottom:20px;
+  boarder:1px solid transparent;
+  boarder-radius:4px;
+  color: white;
+  background-color:#221b1b8f;
+  
+  list-style: none;
+  cursor: pointer;
+}
+
+#login{
+  color: white;
+  background-color:#221b1b8f;
+  margin-top:3em;
+}
+
+#login h2 {
+
+margin: 2em;
+}
+#login a {
+  color:white !important;
+}
+
+#login a:hover {
+  color:white !important;
+}
+
+.profileimage{
+display:inline;
+align:middle;
+}
+.mainalert{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top:0px;
+  padding-bottom:0px;
+
+}
+
+#output{
+  height:350px;
+  overflow:scroll;
+ 
+}
+
+#output > small {
+  margin-right:20px;
+}
+
+#message{
+  overflow: hidden;
+  
+}
+
+.emojionearea .emojionearea-editor {
+width:auto !important;
+height:auto !important;
+
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.form-control {
+  border-radius:0 !important;
+}

@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-md-2
+      .col-md-8
+        input#username(type='hidden', value=user.name)
+        input.avatarform(type='hidden', value=user.profileimage)
+                     
+  br
+  .container#chatWindow(style="background-color:#221b1b8f; padding-top:50px;")
+    .row
+      .col-md-1
+      .col-md-8
+        .panel.panel-primary(style="border:none; border-radius:0;")
+         
+          .panel-body
+            #feedback
+            #output 
+          .panel-footer.panel-primary
+
+              div#message
+              br
+              p.text-center
+                button.btn.btn-block.btn-dark#send(style="background-color:black; color:white;") Send Now
+      .col-md-3
+        .panel.panel-success(style="border:none; border-radius:0;")
+          .panel-heading.text-center(style="background-color:black; color:white; border:none; border-radius:0;") Participants
+          #user-window.panel-body
+  script(src='/javascripts/chat.js')
